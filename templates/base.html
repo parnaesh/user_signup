@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <style>
+            .error {
+                color: red;
+            }
+            label, input[type='submit'] {
+                display: block;
+            }
+            input {
+                margin-right: 7px;
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
